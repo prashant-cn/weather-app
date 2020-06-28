@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    {{>commonhead}}
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather!</p>
+        <form>
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </form>
+        <button title="Current Location" id="currentLocation"><span class="locationUnicode">&#x27A4;</span></button>
+        <p id="result-1"></p>
+        <div id="result-2"></div>
+    
+        <div id="dailyDataTemplatePlaceholder"></div>
+
+    </div>
+
+    {{>footer}}
+    
+    
+    <script type="text/javascript" src="/scripts/script.js"></script>
+</body>
+
+</html>

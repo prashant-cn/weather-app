@@ -1,0 +1,189 @@
+body {
+    color: #333333;
+    font-family: Lato,sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.details, .overview, .dailyDetail{
+    display: flex;
+    justify-content: center;
+}
+
+.dailyDetail{
+    margin-bottom: 20px;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+.dailyDetail div{
+    margin:0 10px;
+}
+
+.summaryText{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+div.weeklySummary{
+    line-height: 65px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+div.futureDaySummary{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+div.details div{
+    margin: 0 10px;
+}
+
+div.currentDetails .label{
+    font-weight: bold;
+}
+.main{
+    font-size: 25px;
+    font-weight: bold;
+    display: inherit;
+}
+
+.currentDetails{
+    width: 100%;
+}
+
+.overviewContainer{
+    background-color: rgba(238,238,238,.35);
+    padding:12px 15px
+}
+
+.overview{
+    padding-bottom: 20px;
+}
+
+.details{
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #eee;
+    letter-spacing: 0.4px;
+}
+
+.time, .rainIntensityValue, .riseAndShine{
+    font-weight: 300;
+}
+
+.temp, .unicodes{
+    font-size: 28px;
+}
+
+.locationUnicode{
+    font-size: 15px;
+    display: inline-block;
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+
+#currentLocation{
+    padding: 6px;
+    vertical-align: bottom;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+p a{
+    color: #888888;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+form{
+    display: inline-block;
+}
+
+button {
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+/*Days Accordion*/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
