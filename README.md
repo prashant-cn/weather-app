@@ -1,6 +1,6 @@
 # weather-app
 
-A basic app to get Weather of your current location or any specific location enetered, using Dark Sky and Map Box REST API. This project is helpful for Backend Developers who wants to learn about working with REST API's on some major topics like Geo-Location, Reverse Geo-Location and working with Weather Forecast. And for Frontend Developers, all sorts of DOM manipulation using JavaScript on client side.
+A basic app to get Weather of your current location or any specific location entered, using Dark Sky and Map Box REST API. This project is helpful for Backend Developers who wants to learn about working with REST API's on some major topics like Geo-Location, Reverse Geo-Location, and working with Weather Forecasting. And for Frontend Developers, all sorts of DOM manipulation using JavaScript on client-side.
 
 <b>Some of the Major technologies used:</b>
 1. <a href="https://nodejs.org/" target="_blank">NodeJS</a>
